@@ -1,0 +1,60 @@
+html {
+    font-size: 20px;
+}
+
+#container > div {
+    background-color: bisque;
+    margin-bottom:15px;
+}
+
+#container {
+    font-size: 30px;
+    
+    
+}
+
+#pixele {
+    width: 400px;
+}
+
+/*em wyliczane jest na podstawie wartosci font-size rodzica */
+#em {
+    width: 20em;
+}
+
+/*ex wyliczane jest na podstawie wysokosci MALYCH LITER wlasciwosci font-size (male litery zajmuja okolo 51%- 52%) */
+#ex {
+    width: 20ex;
+}
+
+/*rem wyliczane sa na podstawie wartosci wlasciwosci font-size przypisanej do elementu html */
+#rem {
+    width: 20rem;
+}
+
+/*jezeli chcemy korzystac z wartosci % danej wlasciwosci, to element nadrzedny (rodzic), musi miec ta wlasciwosc ustawiona w absolutnej jednostce miary (np. px) */
+
+#procenty {
+    width: 50%;
+}
+
+/*vw w zaleznosci od szerokosci okna przegladarki */
+#vw {
+    width: 20vw;
+}
+
+/*vh w zaleznosci od wysokosci okna przegladarki */
+#vh {
+    width: 20vh;
+}
+/*mniejsza z wartosci vh/vw w zaleznosci czy okno przegladarki szersze/dluzsze */
+#vmin {
+    width: 20vmin;
+}
+
+#vmax {
+    width: 20vmax;
+}
+
+
+
